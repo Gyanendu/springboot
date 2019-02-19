@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import org.springframework.stereotype.Service;
 
 @Service
-@XmlRootElement // this annotation will change JSON to XML response
+@XmlRootElement // Default in JSON format so this annotation will change JSON to XML response - Update
 public class ServicePerson {
 	private String id;
 	private String named;
