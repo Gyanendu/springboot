@@ -1,8 +1,11 @@
 package com.example.demo.service;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 import org.springframework.stereotype.Service;
 
 @Service
+@XmlRootElement // this annotation will change JSON to XML response
 public class ServicePerson {
 	private String id;
 	private String named;
